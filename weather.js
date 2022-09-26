@@ -1,7 +1,5 @@
-require("dotenv").config();
-const LOCATION_API_KEY = process.env.LOCATION_API_KEY;
 const api = {
-  key: process.env.WEATHER_API,
+  key: "42134acafee53c491e0fecabb4648971",
 };
 
 const search = document.querySelector(".search");
@@ -15,7 +13,9 @@ search.addEventListener("keypress", (e) => {
   }
 });
 
-fetch(`https://api.ipgeolocation.io/ipgeo?apiKey=${LOCATION_API_KEY}`)
+fetch(
+  "https://api.ipgeolocation.io/ipgeo?apiKey=f8026ee3b1ea4630bcee58805f82df7f"
+)
   .then((ipgeo) => ipgeo.json())
   .then((ipgeo) => {
     whatIsThis(ipgeo.city);
