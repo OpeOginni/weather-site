@@ -3,8 +3,8 @@ body {
   font-family: Space Grotesk;
 }
 h1 {
-  // color: white;
-  color: #0a0908;
+  color: white;
+  //color: #0a0908;
   font-family: Space Grotesk;
   text-align: center;
 }
@@ -27,8 +27,8 @@ h1 {
 }
 
 .location .city {
-  // color: white;
-  color: #0a0908;
+  color: white;
+  //color: #0a0908;
 
   font-size: 32px;
   font-weight: 500;
@@ -36,8 +36,8 @@ h1 {
 }
 
 .current .temp {
-  // color: white;
-  color: #0a0908;
+  color: white;
+  //color: #0a0908;
 
   font-size: 102px;
   font-weight: 900;
@@ -49,8 +49,8 @@ h1 {
 }
 
 .current .weather {
-  // color: white;
-  color: #0a0908;
+  color: white;
+  //color: #0a0908;
 
   font-size: 32px;
   font-weight: 700;
@@ -59,8 +59,8 @@ h1 {
 }
 
 .current .description {
-  // color: white;
-  color: #0a0908;
+  color: white;
+  //color: #0a0908;
 
   font-size: 25px;
   font-weight: 700;
@@ -69,8 +69,8 @@ h1 {
 }
 
 .current .weirdMessage {
-  // color: white;
-  color: #0a0908;
+  color: white;
+  //color: #0a0908;
 
   font-size: 17px;
   font-weight: 700;
