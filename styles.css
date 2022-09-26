@@ -77,3 +77,12 @@ h1 {
   font-family: Space Grotesk;
   margin-bottom: 15px;
 }
+
+.time {
+  color: white;
+  //color: #0a0908;
+
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}

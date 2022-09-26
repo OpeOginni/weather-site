@@ -49,6 +49,15 @@ function whatIsThis(query) {
 
       img.src = `http://openweathermap.org/img/wn/${icon}@2x.png`;
       document.body.style.backgroundImage = `url('https://source.unsplash.com/1920x1080/?${weather.weather[0].description}')`;
+
+      fetch(
+        `https://timeapi.io/api/Time/current/coordinate?latitude=${weather.coord.lat}&longitude=${weather.coord.lon}`
+      )
+        .then((time) => time.json())
+        .then((time) => {
+          const date = document.querySelector(".date");
+          date.innerText = time.time;
+        });
     });
 
   // fetch(
